@@ -12,7 +12,7 @@ const InputBox = ({
       <input
         type="number"
         value={amount}
-        onChange={(e) => onAmountChange(number(e.target.value))}
+        onChange={(e) => onAmountChange(e.target.value)}
         className="w-full p-2 border-none outline-none text-lg bg-transparent"
         placeholder="Enter amount"
       />
